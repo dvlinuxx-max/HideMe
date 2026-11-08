@@ -1,0 +1,32 @@
+HideMe - Commands / الاوامر
+
+Setup / التجهيز:
+  pip install -r requirements.txt
+
+followers = hide your followers / following list (قائمة المتابعين والمتابَعين)
+account   = hide your account from other people's lists (اخفاء حسابك من قوائم الاخرين)
+
+--------------------------------------------------------------------
+
+Hide followers list / اخفاء قائمة المتابعين:
+  python hideme.py --value on --yes
+
+Show followers list / اظهار قائمة المتابعين:
+  python hideme.py --value off --yes
+
+Hide account from others' lists / اخفاء حسابك من قوائم الاخرين:
+  python hideme.py --setting account --value on --yes
+
+Show account in others' lists / اظهار حسابك في قوائم الاخرين:
+  python hideme.py --setting account --value off --yes
+
+Read current status / قراءة الحالة:
+  python hideme.py --status
+
+--------------------------------------------------------------------
+
+Notes / ملاحظات:
+  - The tool asks for the sessionid cookie, or pass it with --sessionid "..."
+    او مرره عبر متغير البيئة IG_SESSIONID
+  - followers is the default option (الافتراضي)
+  - Without --yes it is a dry run only (تجربة بدون ارسال)
