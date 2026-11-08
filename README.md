@@ -1,6 +1,13 @@
 # HideMe
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)
+
 A command-line tool to hide your Instagram followers and following lists from other people.
+
+Keywords: instagram, hide followers, hide following list, instagram privacy, followers
+list, instagram api, instagrapi, privacy tool, cli.
 
 It runs locally in your terminal. You provide your own Instagram session cookie, and the
 request is sent to Instagram directly from your machine. The cookie is never uploaded
